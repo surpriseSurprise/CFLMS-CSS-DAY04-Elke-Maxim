@@ -1,0 +1,77 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#9E9C9C;
+  height: 4.2em;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 5px; 
+    }
+
+    body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  background-image:  url("https://download.hipwallpaper.com/desktop/1600/900/64/8/sM1H5o.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.Oscar{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 35em;
+  padding-top: 5em;
+}
+.Titel{
+  font-family: 'Lobster Two', cursive;
+  color: #FDF5E6;
+  position: absolute;
+  top: 13em;
+  left: 25em;
+  text-align: center;
+}
+#quote{
+  font-family: 'Lobster Two', cursive;
+  color: #FDF5E6;
+  position: absolute;
+  top: 5.7em;
+  left: 5em;
+  text-align: center;
+  font-size: 3em;
+  
+}
